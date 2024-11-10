@@ -21,3 +21,5 @@ foreach (var key in cache.GetKeys<string>())
 ```
 
 `MemoryCacheExtensions` uses reflection to build a few delegates which, when built, allow you to tap into `MemoryCache` internals and efficiently retrieve current keys.
+
+The unit test covering `GetKeys()` is an indicator of whether this extension method still works with the used version of `Microsoft.Extensions.Caching.Memory`.
