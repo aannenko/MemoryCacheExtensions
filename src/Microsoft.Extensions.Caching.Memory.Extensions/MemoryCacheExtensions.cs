@@ -67,7 +67,7 @@ public static class MemoryCacheExtensions
         {
             { ProductMajorPart: < 7 } =>
                 static cache => ((IDictionary)_getEntries6.Value(cache)).Keys,
-            { ProductMajorPart: 8, ProductBuildPart: < 10 } =>
+            { ProductMajorPart: < 8 } or { ProductMajorPart: 8, ProductMinorPart: 0, ProductBuildPart: < 10 } =>
                 static cache => _getEntries7.Value(_getCoherentState.Value(cache)).Keys,
             _ =>
                 static cache => ((ICollection<string>)_getStringEntries8010.Value(_getCoherentState.Value(cache)).Keys)
