@@ -6,9 +6,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Extensions.Cachin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Extensions.Caching.Memory.Extensions.Tests", "Microsoft.Extensions.Caching.Memory.Extensions.Tests\Microsoft.Extensions.Caching.Memory.Extensions.Tests.csproj", "{1ACBB359-CB8F-417B-B062-08FBBD71D44B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4981878C-8F90-477C-92F1-152FE42F0033}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9E90F54A-F0D6-4336-8C8D-78594A4471D1}"
 	ProjectSection(SolutionItems) = preProject
-		README.md = README.md
+		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
 Global
