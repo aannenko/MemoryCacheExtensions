@@ -1,7 +1,7 @@
 [![Build and Test](https://github.com/aannenko/MemoryCacheExtensions/actions/workflows/dotnetcore.yml/badge.svg)](https://github.com/aannenko/MemoryCacheExtensions/actions/workflows/dotnetcore.yml)
 
 # MemoryCacheExtensions
-Get keys from `MemoryCache` (specifically, `Microsoft.Extensions.Caching.Memory.MemoryCache`): add the class `MemoryCacheExtensions` from this repository to your code and call `memoryCache.GetKeys()`.
+Get keys from `MemoryCache` (specifically, `Microsoft.Extensions.Caching.Memory.MemoryCache`): add the class [`MemoryCacheExtensions`](/src/Microsoft.Extensions.Caching.Memory.Extensions/MemoryCacheExtensions.cs) from this repository to your code and call `memoryCache.GetKeys()`.
 
 ```csharp
 var cache = new MemoryCache(new MemoryCacheOptions());
