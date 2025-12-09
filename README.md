@@ -1,5 +1,6 @@
 [![Build and Test](https://github.com/aannenko/MemoryCacheExtensions/actions/workflows/dotnetcore.yml/badge.svg)](https://github.com/aannenko/MemoryCacheExtensions/actions/workflows/dotnetcore.yml)  
 This Build and Test workflow runs weekly. If its status is green, it indicates that the extension method `MemoryCache.GetKeys()` remains compatible with the latest 8.x version of the `Microsoft.Extensions.Caching.Memory` package.  
+> [!IMPORTANT]
 > Consider adding [this unit test](src/Microsoft.Extensions.Caching.Memory.Extensions.Tests/MemoryCacheExtensionsTests.cs) for `GetKeys()` to your solution to catch problems early.
 
 # MemoryCacheExtensions
